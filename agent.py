@@ -204,4 +204,8 @@ if __name__ == '__main__':
             confirm = input(">>> WARNING: Do you want to completely erase the AI's data? (y/n): ")
             if confirm.lower() == 'y':
                 reset_data()
+
             print("="*30 + "\n")
+            #the important thing always appear at the last
+            #data to change
+            #daungocduc.shop
