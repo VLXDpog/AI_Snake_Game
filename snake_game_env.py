@@ -300,4 +300,6 @@ class SnakeGameVersus:
         elif self.direction2 == Direction.LEFT: x -= BLOCK_SIZE
         elif self.direction2 == Direction.DOWN: y += BLOCK_SIZE
         elif self.direction2 == Direction.UP: y -= BLOCK_SIZE
+
         self.head2 = Point(x, y)
+        #may say thang hoa
