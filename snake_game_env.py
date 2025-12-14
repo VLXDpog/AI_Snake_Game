@@ -292,7 +292,7 @@ class SnakeGameVersus:
         else:
             next_idx = (idx - 1) % 4
             new_dir = clock_wise[next_idx]
-
+#classical
         self.direction2 = new_dir
         x = self.head2.x
         y = self.head2.y
@@ -300,4 +300,5 @@ class SnakeGameVersus:
         elif self.direction2 == Direction.LEFT: x -= BLOCK_SIZE
         elif self.direction2 == Direction.DOWN: y += BLOCK_SIZE
         elif self.direction2 == Direction.UP: y -= BLOCK_SIZE
+
         self.head2 = Point(x, y)
